@@ -69,4 +69,14 @@ export default defineConfig({
   mfsu: {},
   webpack5: {},
   exportStatic: {},
+  // script : [
+  //   'https://unpkg.com/react@17/umd/react.production.min.js',
+  //   'https://unpkg.com/react-dom@17/umd/react-dom.production.min.js',
+  //   'https://unpkg.com/@ant-design/charts@1.0.5/dist/charts.min.js',
+  // ],
+  // externals: {
+  //   react: 'React',
+  //   'react-dom': 'ReactDOM',
+  //   "@ant-design/charts": "charts"
+  // },
 });
