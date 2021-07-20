@@ -24,7 +24,7 @@
   {
     path: '/charts',
     name : '图表',
-    icon: 'charts',
+    icon: 'AreaChartOutlined',
     component: './Charts'
   },
   {
