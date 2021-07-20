@@ -22,6 +22,12 @@
     component: './Welcome',
   },
   {
+    path: '/charts',
+    name : '图表',
+    icon: 'charts',
+    component: './Charts'
+  },
+  {
     path: '/admin',
     name: 'admin',
     icon: 'crown',
