@@ -1,6 +1,8 @@
 import React from 'react';
 import {PageContainer} from '@ant-design/pro-layout';
 import {Line} from '@ant-design/charts';
+import {  useRequest } from 'umi';
+import { getLineData } from '@/services/ant-design-pro/api';
 
 
 const Charts: React.FC = () => {
@@ -15,6 +17,12 @@ const Charts: React.FC = () => {
     {year: '1998', value: 9},
     {year: '1999', value: 13},
   ];
+
+  const lineData  =useRequest(getLineData);
+
+  console.log(lineData);
+
+
   const config = {
     data,
     height: 400,
