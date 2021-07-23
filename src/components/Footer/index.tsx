@@ -6,12 +6,12 @@ export default () => {
   const intl = useIntl();
   const defaultMessage = intl.formatMessage({
     id: 'app.copyright.produced',
-    defaultMessage: '蚂蚁集团体验技术部出品',
+    defaultMessage: '七牛音视频质量分析系统',
   });
 
   return (
     <DefaultFooter
-      copyright={`2020 ${defaultMessage}`}
+      copyright={`2021 ${defaultMessage}`}
       links={[
         {
           key: 'Ant Design Pro',
